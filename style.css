@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(150deg, #669999, #996666);
+}
+body .header {
+  background-color: #FFFFFF;
+}
+body .one {
+  color: #5bfce2;
+}
+body .two {
+  color: #fc5b75;
+}
+body .three {
+  color: #fc4260;
+}
+body .four {
+  color: #a6fdef;
+}
+body .five {
+  color: #d8fef8;
+}
+body .six {
+  color: #ffffff;
+}
+span {
+  background-color: #00000;
+}
+.jumbotron {
+  background: linear-gradient(45deg, #669999, #996666);
+}
+.navbar {
+  background: #00000;
+}

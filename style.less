@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(150deg, #669999, #996666);
+
+    .header {
+        background-color: #FFFFFF;
+    }
+
+        @base: #5BFCE2;
+        @complement1: spin(@base, 180);
+        @complement2: darken(spin(@base, 180), 5%);
+        @lighten1: lighten(@base, 15%);
+        @lighten2: lighten(@base, 25%);
+        @lighten3: lighten(@base, 35%);
+
+        .one {
+            color: @base;
+        }
+        .two {
+            color: @complement1;
+        }
+        .three {
+            color: @complement2;
+        }
+        .four {
+            color: @lighten1;
+        }
+        .five {
+            color: @lighten2;
+        }
+        .six {
+            color: @lighten3;
+        }
+    }
+    span {
+        background-color: #00000;
+    }
+
+
+
+.jumbotron {
+    background: linear-gradient(45deg, #669999, #996666);
+    }
+
+.navbar {
+    background: #00000;
+}
+
